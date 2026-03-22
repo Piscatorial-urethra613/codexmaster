@@ -1,4 +1,9 @@
-# AI Agent Development System
+# Codex Master
+
+A structured Codex system combined with a Website Blueprint Generator to produce consistent, non-generic AI-generated websites.
+
+
+## AI Agent Development System
 
 This repository defines a structured execution system for AI coding agents.
 
