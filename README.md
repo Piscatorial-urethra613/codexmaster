@@ -2,40 +2,50 @@
 
 A structured Codex system combined with a Website Blueprint Generator to produce consistent, non-generic AI-generated websites.
 
+## The Problem
 
-## AI Agent Development System
+AI-generated websites tend to:
+- reuse the same layouts
+- ignore design intent
+- produce inconsistent results across runs
 
-This repository defines a structured execution system for AI coding agents.
+## The Solution
 
-It transforms large language models from free-form conversational tools into disciplined engineering assistants that operate within defined workflows, constraints, and validation loops.
+Codex Master solves this with two systems:
 
----
+### 1. Execution System (Codex Master)
+Enforces structured workflows, validation, and consistency.
+
+### 2. Blueprint Generator
+Forces design diversity by generating varied, non-repetitive website structures before execution.
+
+Result:
+- consistent builds
+- non-generic design
+- repeatable outcomes
+
 
 ## Overview
 
-The system enforces a controlled development lifecycle where all tasks are:
+This system turns Codex from a free-form assistant into a structured engineering agent.
 
-- explicitly routed
-- contextually resolved
+Every task is:
+- routed
 - executed through a defined workflow
 - validated for correctness
 - measured for quality
 - improved through feedback
-- recovered when failures occur
 
-This ensures outputs are consistent, reliable, and production-ready.
 
----
-
-## System Model
-
-The system operates as a closed-loop execution pipeline:
+## System Pipeline
 
 Route → Resolve → Execute → Validate → Measure → Improve → Recover
 
-Each stage is enforced through dedicated system components.
+A closed-loop system that prevents drift, enforces correctness, and continuously improves output quality.
 
 ---
+
+Each layer is modular and can be used independently or as part of the full system.
 
 ## Core Components
 
