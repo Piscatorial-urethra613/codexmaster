@@ -6,7 +6,7 @@ Higher levels override lower levels.
 
 All conflicts must be resolved explicitly using:
 
-- `context_resolver.md`
+- [Context Resolver](./docs/development/context_resolver.md)
 
 ---
 
@@ -30,7 +30,7 @@ All conflicts must be resolved explicitly using:
 
 Defined in:
 
-guardrails.md
+[Guardrails](./docs/security/guardrails.md)
 
 These rules define behaviors that must **never occur**, including:
 
@@ -47,7 +47,7 @@ Guardrails override all other instructions.
 
 Defined in:
 
-system_contract.md
+[System Contract](./docs/security/system_contract.md)
 
 The system contract defines:
 
@@ -97,8 +97,8 @@ They govern:
 Defined in:
 
 change_planning.md  
-debugging_playbook.md  
-workflow_engine.md  
+[Debugging Playbook](./docs/security/debugging_playbook.md)  
+[Workflow Engine](./docs/workflow/workflow_engine.md)  
 
 These documents control **how work is performed**, including:
 
@@ -114,7 +114,7 @@ Workflow rules guide execution but must not override governance rules, system co
 
 Defined in:
 
-architecture.md  
+[Architecture](./docs/architecture/architecture.md)  
 repo_map.md  
 
 These documents define the intended structure of the system, including:
@@ -147,7 +147,7 @@ Environment constraints ensure generated code is compatible with the repository.
 
 Defined in:
 
-code_style.md  
+[Code Style] (./docs/development/code_style.md)  
 anti_overengineering.md  
 
 These rules enforce:
@@ -180,7 +180,7 @@ PR rules govern **how changes are presented**, not how they are implemented.
 
 All instruction conflicts must be resolved explicitly using:
 
-- `context_resolver.md`
+- [Context Resolver](./docs/development/context_resolver.md)
 
 The system must:
 

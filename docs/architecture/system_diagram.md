@@ -8,16 +8,16 @@ This document provides a visual and structural overview of how the AI Agent Deve
 
 ```mermaid
 flowchart TD
-    A["Task Input"] --> B["Task Routing<br/>(task_router.md)"]
-    B --> C["Context Resolution<br/>(context_resolver.md + state_manager.md)"]
-    C --> D["Workflow Execution<br/>(workflow_engine.md)"]
-    D --> E["Validation<br/>(validation_agent.md)"]
-    E --> F["Metrics Evaluation<br/>(metrics.md)"]
+    A["Task Input"] --> B["Task Routing<br/>([Task Router](./docs/workflow/task_router.md))"]
+    B --> C["Context Resolution<br/>([Context Resolver](./docs/development/context_resolver.md) + [State Manager](./docs/workflow/state_manager.md))"]
+    C --> D["Workflow Execution<br/>([Workflow Engine](./docs/workflow/workflow_engine.md))"]
+    D --> E["Validation<br/>([Validation Agent](./docs/workflow/validation_agent.md))"]
+    E --> F["Metrics Evaluation<br/>([Metrics] (./docs/strategy/metrics.md))"]
     F --> G["Success"]
     G --> H["Final Output"]
     F --> I["Failure / Low Performance"]
-    I --> J["Failure Handling<br/>(failure_handler.md)"]
-    J --> K["Prompt Optimization<br/>(prompt_optimizer.md)"]
+    I --> J["Failure Handling<br/>([Failure Handler](./docs/security/failure_handler.md))"]
+    J --> K["Prompt Optimization<br/>([Prompt Optimizer] (./docs/strategy/prompt_optimizer.md))"]
     K --> L["Re-run Workflow"]
     L --> D
 ```
@@ -28,13 +28,13 @@ flowchart TD
 
 ```mermaid
 flowchart TB
-    A["Governance Layer<br/>guardrails.md<br/>instruction_priority.md<br/>model_instructions.md<br/>system_contract.md"]
-    B["Input & Context Layer<br/>task_router.md<br/>context_resolver.md<br/>state_manager.md"]
-    C["Execution Layer<br/>workflow_engine.md<br/>agent_workflow.md<br/>task_template.md<br/>change_planning.md"]
-    D["Validation Layer<br/>validation_agent.md<br/>metrics.md"]
-    E["Recovery Layer<br/>failure_handler.md<br/>debugging_playbook.md"]
-    F["Optimization Layer<br/>prompt_optimizer.md"]
-    G["Engineering Standards<br/>architecture.md<br/>code_style.md<br/>anti_overengineering.md<br/>repo_map.md<br/>environment.md"]
+    A["Governance Layer<br/>[Guardrails](./docs/security/guardrails.md)<br/>instruction_priority.md<br/>model_instructions.md<br/>[System Contract](./docs/security/system_contract.md)"]
+    B["Input & Context Layer<br/>[Task Router](./docs/workflow/task_router.md)<br/>[Context Resolver](./docs/development/context_resolver.md)<br/>[State Manager](./docs/workflow/state_manager.md)"]
+    C["Execution Layer<br/>[Workflow Engine](./docs/workflow/workflow_engine.md)<br/>[Agent Workflow](./docs/workflow/agent_workflow.md)<br/>task_template.md<br/>change_planning.md"]
+    D["Validation Layer<br/>[Validation Agent](./docs/workflow/validation_agent.md)<br/>[Metrics] (./docs/strategy/metrics.md)"]
+    E["Recovery Layer<br/>[Failure Handler](./docs/security/failure_handler.md)<br/>[Debugging Playbook](./docs/security/debugging_playbook.md)"]
+    F["Optimization Layer<br/>[Prompt Optimizer] (./docs/strategy/prompt_optimizer.md)"]
+    G["Engineering Standards<br/>[Architecture](./docs/architecture/architecture.md)<br/>[Code Style] (./docs/development/code_style.md)<br/>anti_overengineering.md<br/>repo_map.md<br/>environment.md"]
 
     A --> B --> C --> D --> E --> F
     A --> G

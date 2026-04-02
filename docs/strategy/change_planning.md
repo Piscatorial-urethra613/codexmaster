@@ -6,8 +6,8 @@ The goal is to ensure multi-file edits remain consistent and safe.
 
 Planning must align with:
 
-- `system_contract.md`
-- `workflow_engine.md`
+- [System Contract](./docs/security/system_contract.md)
+- [Workflow Engine](./docs/workflow/workflow_engine.md)
 
 ---
 
@@ -73,7 +73,7 @@ Large-scale rewrites should only occur when explicitly requested.
 
 If the change is based on a failure, the agent must first reference:
 
-- `failure_handler.md`
+- [Failure Handler](./docs/security/failure_handler.md)
 
 The plan must include:
 
@@ -92,7 +92,7 @@ Repeated failures must trigger:
 
 When improving or refining behavior, the agent must use:
 
-- `metrics.md`
+- [Metrics] (./docs/strategy/metrics.md)
 
 The plan should identify:
 
@@ -111,8 +111,8 @@ After applying changes:
 2. confirm interfaces remain compatible
 3. run tests to verify system integrity
 4. validate output using:
-   - `validation_agent.md`
-   - `metrics.md`
+   - [Validation Agent](./docs/workflow/validation_agent.md)
+   - [Metrics] (./docs/strategy/metrics.md)
 
 ---
 
@@ -120,9 +120,9 @@ After applying changes:
 
 All plans must:
 
-- respect `guardrails.md`
-- comply with `system_contract.md`
-- align with `architecture.md`
+- respect `[Guardrails](./docs/security/guardrails.md)
+- comply with `[System Contract](./docs/security/system_contract.md)
+- align with `[Architecture](./docs/architecture/architecture.md)`
 
 ---
 
@@ -131,8 +131,8 @@ All plans must:
 For UI-related changes:
 
 - Identify affected layout patterns
-- Determine if design_system.md rules are violated
-- Ensure variation is preserved (design_variation_engine.md)
+- Determine if [Design System](./docs/design/design_system.md) rules are violated
+- Ensure variation is preserved ([Design Variation Engine](./docs/design/design_variation_engine.md))
 
 Do not introduce generic structures during changes.
 

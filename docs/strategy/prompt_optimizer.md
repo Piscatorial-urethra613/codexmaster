@@ -17,8 +17,8 @@ It ensures that prompting evolves based on performance data, not guesswork.
 
 Prompts must align with system execution:
 
-- task_router.md
-- workflow_engine.md
+- [Task Router](./docs/workflow/task_router.md)
+- [Workflow Engine](./docs/workflow/workflow_engine.md)
 - system_memory.md
 
 ## Responsibilities
@@ -172,8 +172,8 @@ Previously successful prompt patterns may be stored and reused via system_memory
 
 ## Design improvements must consider:
 
-- successful patterns from design_memory.md
-- variation gaps from design_variation_engine.md
+- successful patterns from [Design Memory](./docs/design/design_memory.md)
+- variation gaps from [Design Variation Engine](./docs/design/design_variation_engine.md)
 
 Avoid reinforcing generic layouts even if they perform adequately.
 
@@ -188,14 +188,14 @@ Avoid reinforcing generic layouts even if they perform adequately.
 
 Works with:
 
-- `metrics.md`
-- `validation_agent.md`
-- `task_template.md`
+- [Metrics] (./docs/strategy/metrics.md)
+- [Validation Agent](./docs/workflow/validation_agent.md)
+- task_template.md
 
 Feeds into:
 
-- `agent_workflow.md`
-- `ProjectTemplates`
+- [Agent Workflow](./docs/workflow/agent_workflow.md)
+- ProjectTemplates`
 
 ## Versioning
 

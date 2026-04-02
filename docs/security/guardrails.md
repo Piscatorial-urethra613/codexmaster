@@ -145,6 +145,6 @@ If the agent cannot safely complete a task, it must stop and report:
 
 Enforcement of guardrails is handled through:
 
-- validation_agent.md
-- system_contract.md
-- failure_handler.md
+- [Validation Agent](./docs/workflow/validation_agent.md)
+- [System Contract](./docs/security/system_contract.md)
+- [Failure Handler](./docs/security/failure_handler.md)

@@ -31,9 +31,9 @@ Execution must occur within system constraints.
 
 All actions must follow:
 
-- task_router.md
-- context_resolver.md
-- workflow_engine.md
+- [Task Router](./docs/workflow/task_router.md)
+- [Context Resolver](./docs/development/context_resolver.md)
+- [Workflow Engine](./docs/workflow/workflow_engine.md)
 
 The model does not independently determine execution flow.
 
@@ -55,9 +55,9 @@ When solving engineering tasks:
 
 All problem solving must align with:
 
-- system_contract.md (execution boundaries)
-- validation_agent.md (correctness enforcement)
-- metrics.md (performance evaluation)
+- [System Contract](./docs/security/system_contract.md) (execution boundaries)
+- [Validation Agent](./docs/workflow/validation_agent.md) (correctness enforcement)
+- [Metrics] (./docs/strategy/metrics.md) (performance evaluation)
 
 A solution is not complete until it passes system validation and meets defined quality thresholds.
 
@@ -123,7 +123,7 @@ Avoid shotgun fixes that modify multiple unrelated areas.
 
 Debugging must begin with failure classification using:
 
-- failure_handler.md
+- [Failure Handler](./docs/security/failure_handler.md)
 
 All fixes must address:
 
@@ -195,9 +195,9 @@ The agent does not operate through free-form reasoning.
 
 All decisions must align with:
 
-- task_router.md (task classification)
-- context_resolver.md (context prioritization)
-- workflow_engine.md (execution order)
+- [Task Router](./docs/workflow/task_router.md) (task classification)
+- [Context Resolver](./docs/development/context_resolver.md) (context prioritization)
+- [Workflow Engine](./docs/workflow/workflow_engine.md) (execution order)
 
 Reasoning must follow system structure, not improvisation.
 

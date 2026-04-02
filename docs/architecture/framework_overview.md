@@ -16,23 +16,23 @@ The goal is to convert LLMs from conversational tools into structured developmen
 ## Framework Layers
 
 1. Governance
-   - guardrails.md
+   - [Guardrails](./docs/security/guardrails.md)
    - instruction_priority.md
    - model_instructions.md
 
 2. System Context
-   - architecture.md
+   - [Architecture](./docs/architecture/architecture.md)
    - repo_map.md
    - environment.md
 
 3. Development Workflows
    - task_template.md
    - change_planning.md
-   - debugging_playbook.md
+   - [Debugging Playbook](./docs/security/debugging_playbook.md)
    - pr_rules.md
 
 4. Engineering Standards
-   - code_style.md
+   - [Code Style] (./docs/development/code_style.md)
    - anti_overengineering.md
 
 ### Memory Layer

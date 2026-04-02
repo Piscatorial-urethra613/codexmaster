@@ -194,9 +194,9 @@ If routing fails:
 
 Works with:
 
-- `workflow_engine.md`
-- `state_manager.md`
-- `validation_agent.md`
+- [Workflow Engine](./docs/workflow/workflow_engine.md)
+- [State Manager](./docs/workflow/state_manager.md)
+- [Validation Agent](./docs/workflow/validation_agent.md)
 
 Feeds into:
 

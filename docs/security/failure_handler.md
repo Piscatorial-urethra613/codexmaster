@@ -171,28 +171,28 @@ Outcome:
 - repeated design patterns
 - weak visual identity
 
-These must be logged to design_memory.md under [ANTI-PATTERN]
+These must be logged to [Design Memory](./docs/design/design_memory.md) under [ANTI-PATTERN]
 
 ## Integration Points
 
 Works with:
 
-- `validation_agent.md`
-- `metrics.md`
-- `task_router.md`
-- `context_resolver.md`
+- [Validation Agent](./docs/workflow/validation_agent.md)
+- [Metrics] (./docs/strategy/metrics.md)
+- [Task Router](./docs/workflow/task_router.md)
+- [Context Resolver](./docs/development/context_resolver.md)
 
 Feeds into:
 
-- `debugging_playbook.md`
-- `ChangePlanner.md`
+- [Debugging Playbook](./docs/security/debugging_playbook.md)
+- ChangePlanner.md
 
 ## Learning Loop
 
 Failures must inform:
 
-- prompt_optimizer.md
-- metrics.md
+- [Prompt Optimizer] (./docs/strategy/prompt_optimizer.md)
+- [Metrics] (./docs/strategy/metrics.md)
 - change_planning.md
 - system_memory.md (for recurring or systemic issues)
 

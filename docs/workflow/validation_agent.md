@@ -23,7 +23,7 @@ The Validation Agent must:
 - Check alignment with user intent
 - Validate against constraints and guardrails
 - Confirm output completeness
-- Ensure compliance with system_contract.md
+- Ensure compliance with [System Contract](./docs/security/system_contract.md)
 
 ## Validation Layers
 
@@ -151,9 +151,9 @@ Validation rules must evolve based on:
 
 The output must:
 
-- follow design_system.md rules
-- satisfy design_variation_engine.md uniqueness constraints
-- avoid known anti-patterns from design_memory.md
+- follow [Design System](./docs/design/design_system.md) rules
+- satisfy [Design Variation Engine](./docs/design/design_variation_engine.md) uniqueness constraints
+- avoid known anti-patterns from [Design Memory](./docs/design/design_memory.md)
 
 Reject if:
 

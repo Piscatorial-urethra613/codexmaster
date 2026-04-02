@@ -32,53 +32,53 @@ Each stage is enforced through dedicated system components.
 
 Defines system boundaries, behavior, and authority.
 
-- `guardrails.md`
-- `instruction_priority.md`
-- `model_instructions.md`
-- `system_contract.md`
+- [Guardrails](./docs/security/guardrails.md)
+- instruction_priority.md
+- model_instructions.md
+- [System Contract](./docs/security/system_contract.md)
 
 ### 2. Input & Context Layer
 
 Determines what the system should do and what information is relevant.
 
-- `task_router.md`
-- `context_resolver.md`
-- `state_manager.md`
+- [Task Router](./docs/workflow/task_router.md)
+- [Context Resolver](./docs/development/context_resolver.md)
+- [State Manager](./docs/workflow/state_manager.md)
 
 ### 3. Execution Layer
 
 Controls how tasks are performed.
 
-- `workflow_engine.md`
-- `task_template.md`
-- `change_planning.md`
+- [Workflow Engine](./docs/workflow/workflow_engine.md)
+- task_template.md
+- change_planning.md
 
 ### 4. Validation Layer
 
 Ensures correctness and completeness.
 
-- `validation_agent.md`
-- `metrics.md`
+- [Validation Agent](./docs/workflow/validation_agent.md)
+- [Metrics] (./docs/strategy/metrics.md)
 
 ### 5. Recovery Layer
 
 Handles failures and ensures system resilience.
 
-- `failure_handler.md`
-- `debugging_playbook.md`
+- [Failure Handler](./docs/security/failure_handler.md)
+- [Debugging Playbook](./docs/security/debugging_playbook.md)
 
 ### 6. Optimization Layer
 
 Improves system performance over time.
 
-- `prompt_optimizer.md`
+- [Prompt Optimizer] (./docs/strategy/prompt_optimizer.md)
 
 ### 7. Engineering Standards Layer
 
 Ensures code quality and maintainability.
 
-- `code_style.md`
-- `anti_overengineering.md`
+- [Code Style] (./docs/development/code_style.md)
+- anti_overengineering.md
 
 ## System Behavior
 

@@ -52,63 +52,63 @@ Each layer is modular and can be used independently or as part of the full syste
 ### Governance Layer
 Defines rules, priorities, and system boundaries.
 
-- `guardrails.md`
-- `instruction_priority.md`
-- `model_instructions.md`
-- `system_contract.md`
+- [Guardrails](./docs/security/guardrails.md)
+- instruction_priority.md
+- model_instructions.md
+- [System Contract](./docs/security/system_contract.md)
 
 ---
 
 ### Input & Context Layer
 Determines task classification and relevant context.
 
-- `task_router.md`
-- `context_resolver.md`
-- `state_manager.md`
+- [Task Router](./docs/workflow/task_router.md)
+- [Context Resolver](./docs/development/context_resolver.md)
+- [State Manager](./docs/workflow/state_manager.md)
 
 ---
 
 ### Execution Layer
 Controls how tasks are performed.
 
-- `workflow_engine.md`
-- `agent_workflow.md`
-- `task_template.md`
-- `change_planning.md`
+- [Workflow Engine](./docs/workflow/workflow_engine.md)
+- [Agent Workflow](./docs/workflow/agent_workflow.md)
+- task_template.md
+- change_planning.md
 
 ---
 
 ### Validation Layer
 Ensures correctness and completeness.
 
-- `validation_agent.md`
-- `metrics.md`
+- [Validation Agent](./docs/workflow/validation_agent.md)
+- [Metrics] (./docs/strategy/metrics.md)
 
 ---
 
 ### Recovery Layer
 Handles failures and system resilience.
 
-- `failure_handler.md`
-- `debugging_playbook.md`
+- [Failure Handler](./docs/security/failure_handler.md)
+- [Debugging Playbook](./docs/security/debugging_playbook.md)
 
 ---
 
 ### Optimization Layer
 Improves performance over time.
 
-- `prompt_optimizer.md`
+- [Prompt Optimizer] (./docs/strategy/prompt_optimizer.md)
 
 ---
 
 ### Engineering Standards
 Maintains code quality and consistency.
 
-- `architecture.md`
-- `code_style.md`
-- `anti_overengineering.md`
-- `repo_map.md`
-- `environment.md`
+- [Architecture](./docs/architecture/architecture.md)`
+- [Code Style] (./docs/development/code_style.md)
+- anti_overengineering.md
+- repo_map.md
+- environment.md
 
 ---
 
@@ -136,25 +136,25 @@ Modular components allow extension without breaking behavior.
 All tasks follow this sequence:
 
 1. **Task Routing**  
-   Classify task type and complexity (`task_router.md`)
+   Classify task type and complexity (`[Task Router](./docs/workflow/task_router.md))
 
 2. **Context Resolution**  
-   Determine authoritative context (`context_resolver.md`, `state_manager.md`)
+   Determine authoritative context (`[Context Resolver](./docs/development/context_resolver.md), `[State Manager](./docs/workflow/state_manager.md))
 
 3. **Execution**  
-   Run through enforced workflow (`workflow_engine.md`)
+   Run through enforced workflow (`[Workflow Engine](./docs/workflow/workflow_engine.md))
 
 4. **Validation**  
-   Verify correctness (`validation_agent.md`)
+   Verify correctness (`[Validation Agent](./docs/workflow/validation_agent.md))
 
 5. **Metrics Evaluation**  
-   Measure quality (`metrics.md`)
+   Measure quality (`[Metrics] (./docs/strategy/metrics.md))
 
 6. **Failure Handling (if needed)**  
-   Classify and recover (`failure_handler.md`)
+   Classify and recover (`[Failure Handler](./docs/security/failure_handler.md))
 
 7. **Optimization (if needed)**  
-   Improve prompt structure (`prompt_optimizer.md`)
+   Improve prompt structure (`[Prompt Optimizer] (./docs/strategy/prompt_optimizer.md))
 
 ---
 
@@ -200,9 +200,9 @@ The system is designed to assist, not replace, engineering judgment.
 
 ## Getting Started
 
-1. Define a task using `task_template.md`
-2. Ensure routing via `task_router.md`
-3. Follow execution through `workflow_engine.md`
+1. Define a task using `task_template.md
+2. Ensure routing via `[Task Router](./docs/workflow/task_router.md)
+3. Follow execution through `[Workflow Engine](./docs/workflow/workflow_engine.md)
 4. Validate and measure results
 5. Refine if necessary
 

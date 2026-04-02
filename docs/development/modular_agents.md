@@ -162,10 +162,10 @@ No silent overrides allowed.
 
 Works with:
 
-- `agent_workflow.md`
-- `task_template.md`
-- `state_manager.md`
-- `validation_agent.md`
+- [Agent Workflow](./docs/workflow/agent_workflow.md)
+- task_template.md
+- [State Manager](./docs/workflow/state_manager.md)
+- [Validation Agent](./docs/workflow/validation_agent.md)
 
 Must align with:
 

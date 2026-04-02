@@ -258,7 +258,7 @@ Rule Going Forward:
 Must be specific (no vague descriptions)
 Must include cause and effect
 Must be reusable
-Must not duplicate design_system.md rules
+Must not duplicate [Design System](./docs/design/design_system.md) rules
 
 
 ## Update Triggers
@@ -273,10 +273,10 @@ Integration
 
 ## Works with:
 
-design_system.md → enforces rules
-design_variation_engine.md → enforces diversity
+[Design System](./docs/design/design_system.md) → enforces rules
+[Design Variation Engine](./docs/design/design_variation_engine.md) → enforces diversity
 system_memory.md → broader system learning
-prompt_optimizer.md → improves generation quality
+[Prompt Optimizer] (./docs/strategy/prompt_optimizer.md) → improves generation quality
 
 
 ## Final Rule

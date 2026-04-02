@@ -68,9 +68,9 @@ Dependency additions must include justification.
 
 Typical test commands:
 
-- `npm test`
-- `pytest`
-- `phpunit`
+- npm test`
+- pytest`
+- phpunit`
 
 Agents should use the test suite to validate code changes.
 

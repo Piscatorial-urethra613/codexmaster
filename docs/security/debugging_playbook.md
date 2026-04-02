@@ -18,7 +18,7 @@ Every fix must be based on **evidence from the codebase or runtime behavior**.
 
 Debugging must begin with structured failure classification using:
 
-- `failure_handler.md`
+- [Failure Handler](./docs/security/failure_handler.md)
 
 ---
 
@@ -26,7 +26,7 @@ Debugging must begin with structured failure classification using:
 
 The agent must follow this sequence:
 
-1. classify failure (`failure_handler.md`)
+1. classify failure (`[Failure Handler](./docs/security/failure_handler.md))
 2. reproduce the failure
 3. examine error messages and stack traces
 4. identify the failing component
@@ -35,8 +35,8 @@ The agent must follow this sequence:
 7. implement the smallest possible fix
 8. verify the fix with tests
 9. validate results using:
-   - `validation_agent.md`
-   - `metrics.md`
+   - [Validation Agent](./docs/workflow/validation_agent.md)
+   - [Metrics] (./docs/strategy/metrics.md)
 
 Skipping steps is prohibited.
 
@@ -103,8 +103,8 @@ After implementing a fix:
 2. run related tests
 3. confirm no regressions occur
 4. validate output using:
-   - `validation_agent.md`
-   - `metrics.md`
+   - [Validation Agent](./docs/workflow/validation_agent.md)
+   - [Metrics] (./docs/strategy/metrics.md)
 
 If tests do not exist for the bug scenario, the agent should:
 
@@ -138,14 +138,14 @@ If the root cause cannot be determined with confidence, the agent must stop and 
 
 All debugging outcomes must inform:
 
-- `change_planning.md` (future planning improvements)
-- `prompt_optimizer.md` (input refinement if applicable)
-- `metrics.md` (performance tracking)
+- change_planning.md (future planning improvements)
+- [Prompt Optimizer] (./docs/strategy/prompt_optimizer.md) (input refinement if applicable)
+- [Metrics] (./docs/strategy/metrics.md) (performance tracking)
 
 Repeated failure patterns must trigger:
 
 - deeper system review
-- potential escalation via `failure_handler.md`
+- potential escalation via `[Failure Handler](./docs/security/failure_handler.md)
 
 ---
 

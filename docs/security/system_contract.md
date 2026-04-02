@@ -99,10 +99,10 @@ The system may adapt when:
 
 The contract is enforced through:
 
-- `workflow_engine.md`
-- `validation_agent.md`
-- `context_resolver.md`
-- `failure_handler.md`
+- [Workflow Engine](./docs/workflow/workflow_engine.md)
+- [Validation Agent](./docs/workflow/validation_agent.md)
+- [Context Resolver](./docs/development/context_resolver.md)
+- [Failure Handler](./docs/security/failure_handler.md)
 
 Any violation must trigger corrective action.
 

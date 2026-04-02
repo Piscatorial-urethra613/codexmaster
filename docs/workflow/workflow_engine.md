@@ -19,7 +19,7 @@ It ensures that tasks are executed consistently, completely, and without skippin
 Agents do not execute independently.
 
 All agent execution must occur within:
-- workflow_engine.md
+- [Workflow Engine](./docs/workflow/workflow_engine.md)
 
 Agents must not bypass defined execution stages.
 
@@ -97,8 +97,8 @@ Output:
 
 Decision:
 
-- `PASS` -> proceed
-- `FAIL` -> return to Builder with corrections
+- PASS` -> proceed
+- FAIL` -> return to Builder with corrections
 
 ### 7. metrics Evaluation
 
@@ -170,11 +170,11 @@ Context -> Builder -> Validation -> Output
 
 Works with:
 
-- `state_manager.md`
-- `task_router.md`
-- `validation_agent.md`
-- `metrics.md`
-- `prompt_optimizer.md`
+- [State Manager](./docs/workflow/state_manager.md)
+- [Task Router](./docs/workflow/task_router.md)
+- [Validation Agent](./docs/workflow/validation_agent.md)
+- [Metrics] (./docs/strategy/metrics.md)
+- [Prompt Optimizer] (./docs/strategy/prompt_optimizer.md)
 
 Aligns with:
 

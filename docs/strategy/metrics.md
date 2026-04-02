@@ -27,9 +27,9 @@ Measures correctness of output.
 
 Score:
 
-- `0` = Incorrect
-- `1` = Partially correct
-- `2` = Fully correct
+- 0` = Incorrect
+- 1` = Partially correct
+- 2` = Fully correct
 
 ### 2. Completeness
 
@@ -41,9 +41,9 @@ Measures whether all requirements were fulfilled.
 
 Score:
 
-- `0` = Major gaps
-- `1` = Minor gaps
-- `2` = Complete
+- 0` = Major gaps
+- 1` = Minor gaps
+- 2` = Complete
 
 ### 3. Clarity
 
@@ -55,9 +55,9 @@ Measures readability and usability.
 
 Score:
 
-- `0` = Confusing
-- `1` = Acceptable
-- `2` = Clear and structured
+- 0` = Confusing
+- 1` = Acceptable
+- 2` = Clear and structured
 
 ### 4. Efficiency
 
@@ -69,9 +69,9 @@ Measures unnecessary complexity.
 
 Score:
 
-- `0` = Inefficient
-- `1` = Acceptable
-- `2` = Optimized
+- 0` = Inefficient
+- 1` = Acceptable
+- 2` = Optimized
 
 ### 5. Reliability
 
@@ -83,9 +83,9 @@ Measures consistency across outputs.
 
 Score:
 
-- `0` = Unreliable
-- `1` = Inconsistent
-- `2` = Consistent
+- 0` = Unreliable
+- 1` = Inconsistent
+- 2` = Consistent
 
 ### 6. Constraint Compliance
 
@@ -97,9 +97,9 @@ Measures adherence to rules.
 
 Score:
 
-- `0` = Violated
-- `1` = Partial compliance
-- `2` = Fully compliant
+- 0` = Violated
+- 1` = Partial compliance
+- 2` = Fully compliant
 
 ## Scoring System
 
@@ -120,10 +120,10 @@ Total Score: X/12
 
 ## Performance Tiers
 
-- `0–5` -> Unacceptable
-- `6–8` -> Needs Improvement
-- `9–10` -> Solid
-- `11–12` -> Production-Grade
+- 0–5` -> Unacceptable
+- 6–8` -> Needs Improvement
+- 9–10` -> Solid
+- 11–12` -> Production-Grade
 
 ## Evaluation Workflow
 
@@ -192,13 +192,13 @@ No metric = no improvement.
 
 Works with:
 
-- `validation_agent.md`
-- `ChangePlanner.md`
-- `debugging_playbook.md`
+- [Validation Agent](./docs/workflow/validation_agent.md)
+- ChangePlanner.md
+- [Debugging Playbook](./docs/security/debugging_playbook.md)
 
 Feeds into:
 
-- `prompt_optimizer.md`
+- [Prompt Optimizer] (./docs/strategy/prompt_optimizer.md)
 - System refinement loops
 
 ## Design Metrics

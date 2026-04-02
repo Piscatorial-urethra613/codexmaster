@@ -26,9 +26,9 @@ The system may receive context from multiple sources:
 - repo_map / Codebase
 - Framework Files (Guardrails, instruction_priority, etc.)
 - SystemMemory (system_memory.md)
-- design_system.md
-- design_memory.md
-- design_variation_engine.md
+- [Design System](./docs/design/design_system.md)
+- [Design Memory](./docs/design/design_memory.md)
+- [Design Variation Engine](./docs/design/design_variation_engine.md)
 
 ## Context Priority Order
 
@@ -143,14 +143,14 @@ If output misaligns:
 
 Works with:
 
-- `state_manager.md`
-- `task_router.md`
-- `workflow_engine.md`
+- [State Manager](./docs/workflow/state_manager.md)
+- [Task Router](./docs/workflow/task_router.md)
+- [Workflow Engine](./docs/workflow/workflow_engine.md)
 
 Aligns with:
 
-- `instruction_priority`
-- `Guardrails`
+- instruction_priority`
+- Guardrails`
 
 ## Versioning
 

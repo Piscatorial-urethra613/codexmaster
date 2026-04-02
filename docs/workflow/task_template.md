@@ -6,9 +6,9 @@ Agents must follow this workflow **after task routing and context resolution**.
 
 Execution must align with:
 
-- `task_router.md`
-- `context_resolver.md`
-- `workflow_engine.md`
+- [Task Router](./docs/workflow/task_router.md)
+- [Context Resolver](./docs/development/context_resolver.md)
+- [Workflow Engine](./docs/workflow/workflow_engine.md)
 
 ---
 
@@ -16,7 +16,7 @@ Execution must align with:
 
 Before using this template, the task must be classified using:
 
-- `task_router.md`
+- [Task Router](./docs/workflow/task_router.md)
 
 The router determines:
 
@@ -99,8 +99,8 @@ Large architectural changes should be avoided unless required.
 
 Planning must align with:
 
-- `change_planning.md`
-- system constraints defined in `system_contract.md`
+- change_planning.md
+- system constraints defined in `[System Contract](./docs/security/system_contract.md)
 
 ---
 
@@ -117,8 +117,8 @@ If such changes are necessary, they must be explicitly noted.
 
 Safety must align with:
 
-- `guardrails.md`
-- `system_contract.md`
+- [Guardrails](./docs/security/guardrails.md)
+- [System Contract](./docs/security/system_contract.md)
 
 ---
 
@@ -134,8 +134,8 @@ Follow:
 
 Implementation must respect:
 
-- `workflow_engine.md` execution rules
-- `context_resolver.md` decisions
+- [Workflow Engine](./docs/workflow/workflow_engine.md) execution rules
+- [Context Resolver](./docs/development/context_resolver.md) decisions
 
 ---
 
@@ -143,8 +143,8 @@ Implementation must respect:
 
 All outputs must be validated before completion using:
 
-- `validation_agent.md`
-- `metrics.md`
+- [Validation Agent](./docs/workflow/validation_agent.md)
+- [Metrics] (./docs/strategy/metrics.md)
 
 Requirements:
 
@@ -197,7 +197,7 @@ Include:
 
 Before implementation, define:
 
-- Layout Strategy (from design_variation_engine.md)
+- Layout Strategy (from [Design Variation Engine](./docs/design/design_variation_engine.md))
 - Visual Tone
 - Typography Style
 - Interaction Level
@@ -217,7 +217,7 @@ This template defines **task structure**, not execution order.
 
 Execution order is enforced by:
 
-- `workflow_engine.md`
+- [Workflow Engine](./docs/workflow/workflow_engine.md)
 
 All tasks must pass through:
 
